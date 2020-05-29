@@ -1,0 +1,16 @@
+mysql:
+  host: localhost
+  database: mallplus
+  user: root
+  password: Mysql159357*
+  table: '*'
+
+project:
+  author: db1995
+  entity-output-path: /Users/gxb/IdeaProjects/mybatis-generator/src/main/java/com/github/mb/entity
+  service-output-location: /Users/gxb/IdeaProjects/mybatis-generator/src/main/java/com/github/mb/service
+  mapper-output-location: /Users/gxb/IdeaProjects/mybatis-generator/src/main/java/com/github/mb/mapper
+  xml-output-location: /Users/gxb/IdeaProjects/mybatis-generator/src/main/resources/mapper
+
+# not allow *
+# allow '*' "*" \*
